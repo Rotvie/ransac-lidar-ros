@@ -74,11 +74,11 @@ def scan_callback(msg):
     	    pn_x = laser_ranges[i]*math.cos(laser_angles[i])
     	    pn_y = laser_ranges[i]*math.sin(laser_angles[i])
 
-	    if (math.isinf(pn_x)==False and math.isinf(pn_y)==False and bp[j][0]<pn_x<bp[j+1][0] and bp[j][1]<pn_y<bp[j+1][1]):
+	if (math.isinf(pn_x)==False and math.isinf(pn_y)==False and bp[j][0]<pn_x<bp[j+1][0] and bp[j][1]<pn_y<bp[j+1][1]):
             X.append([pn_x])
             y.append([pn_y])
 
-	    else: 
+	else: 
             pass
 
         X = np.array(X)
