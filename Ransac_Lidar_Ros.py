@@ -9,6 +9,7 @@ from sensor_msgs.msg import LaserScan
 rospy.init_node('p3dx_lidar_ransac', anonymous=True)
 laser_ranges = []
 laser_angles = []
+#Hola mundo
 
 bp = [[-0.1, 1.9], [1.3, 2.2], [1.8, 1.8], [3.1, 2.1], [1.75, 1.9], [1.95, 3.0]]
 
