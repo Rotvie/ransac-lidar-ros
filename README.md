@@ -1,3 +1,2 @@
-# Demo
-
-Link al video en Youtube: https://youtu.be/Yh6MZZoGHNM
+# ransac-lidar-ros
+**Youtube video of the project -> https://youtu.be/Yh6MZZoGHNM**
